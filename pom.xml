@@ -7,13 +7,16 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.5.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+       <!-- lookup parent from repository -->
     </parent>
+
     <groupId>sia</groupId>
     <artifactId>taco-cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>taco-cloud</name>
     <description>Spring in Action 5</description>
+    <packaging>jar</packaging>
+
     <properties>
         <java.version>11</java.version>
     </properties>
